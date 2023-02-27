@@ -2,7 +2,7 @@
 @import "@angular/material/prebuilt-themes/indigo-pink.css";
 
 html, body {
-  height: 100%;
+  height: 100%; /* body and!! html takes full height even if content is smaller */
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 body {
